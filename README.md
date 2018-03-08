@@ -1,1 +1,1 @@
-# rsbup [![BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+# rsbup [![BSD 3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![Travis Build Status](https://travis-ci.org/pbtrung/rsbup.svg?branch=master)](https://travis-ci.org/pbtrung/rsbup) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/6path6a4fa6n1iqn?svg=true)](https://ci.appveyor.com/project/pbtrung/rsbup)
