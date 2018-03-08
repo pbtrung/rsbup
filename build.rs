@@ -2,6 +2,7 @@ extern crate gcc;
 
 fn main() {
     gcc::Build::new()
+               .file("src/pbkdf2/pbkdf2.c")
                .file("src/skein3fish/skein.c")
                .file("src/skein3fish/skeinApi.c")
                .file("src/skein3fish/skeinBlockNo3F.c")
