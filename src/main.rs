@@ -110,7 +110,7 @@ fn run() -> io::Result<()> {
         .subcommand(SubCommand::with_name("restore").display_order(0)
             .about("Restore from a repository")
             .version(env!("CARGO_PKG_VERSION"))
-            .arg(Arg::with_name("RESTORE_DIR").short("r").long("restore-dir").takes_value(true).value_name("PATH")
+            .arg(Arg::with_name("RESTORE_DIR").short("s").long("restore-dir").takes_value(true).value_name("PATH")
                 .help("Path to a directory to restore"))
             .arg(Arg::with_name("INCLUDE").short("i").long("include").takes_value(true).value_name("PATTERN")
                 .help("Include files/directories"))
